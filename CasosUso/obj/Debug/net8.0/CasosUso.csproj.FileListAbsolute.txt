@@ -1,0 +1,11 @@
+C:\Users\Warzito\source\repos\Obligatorio2025\CasosUso\bin\Debug\net8.0\CasosUso.deps.json
+C:\Users\Warzito\source\repos\Obligatorio2025\CasosUso\bin\Debug\net8.0\CasosUso.dll
+C:\Users\Warzito\source\repos\Obligatorio2025\CasosUso\bin\Debug\net8.0\CasosUso.pdb
+C:\Users\Warzito\source\repos\Obligatorio2025\CasosUso\obj\Debug\net8.0\CasosUso.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Warzito\source\repos\Obligatorio2025\CasosUso\obj\Debug\net8.0\CasosUso.AssemblyInfoInputs.cache
+C:\Users\Warzito\source\repos\Obligatorio2025\CasosUso\obj\Debug\net8.0\CasosUso.AssemblyInfo.cs
+C:\Users\Warzito\source\repos\Obligatorio2025\CasosUso\obj\Debug\net8.0\CasosUso.csproj.CoreCompileInputs.cache
+C:\Users\Warzito\source\repos\Obligatorio2025\CasosUso\obj\Debug\net8.0\CasosUso.dll
+C:\Users\Warzito\source\repos\Obligatorio2025\CasosUso\obj\Debug\net8.0\refint\CasosUso.dll
+C:\Users\Warzito\source\repos\Obligatorio2025\CasosUso\obj\Debug\net8.0\CasosUso.pdb
+C:\Users\Warzito\source\repos\Obligatorio2025\CasosUso\obj\Debug\net8.0\ref\CasosUso.dll

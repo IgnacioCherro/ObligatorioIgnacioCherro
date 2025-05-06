@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Obligatorio2025/1.0.0": {
+        "dependencies": {
+          "CasosUso": "1.0.0"
+        },
+        "runtime": {
+          "Obligatorio2025.dll": {}
+        }
+      },
+      "CasosUso/1.0.0": {
+        "runtime": {
+          "CasosUso.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Obligatorio2025/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CasosUso/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
