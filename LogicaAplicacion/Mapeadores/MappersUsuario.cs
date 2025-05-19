@@ -1,5 +1,6 @@
 ﻿using CasosUso.DTOs;
 using LogicaNegocio.EntidadesDominio;
+using LogicaNegocio.ValueObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,8 +16,8 @@ namespace LogicaAplicacion.Mapeadores
         {
             return new UsuarioLogueadoDTO
             {
-                NombreCompleto = $"{usuarioLogeado.Nombre} {usuarioLogeado.Apellido}",
-                Email = usuarioLogeado.Email,
+                NombreCompleto = $"{usuarioLogeado.Nombre.Valor} {usuarioLogeado.Apellido}",
+                Email = usuarioLogeado.Email.Valor,
                 Rol = usuarioLogeado.Rol
             };
         }
@@ -25,38 +26,40 @@ namespace LogicaAplicacion.Mapeadores
         {
             return new UsuarioDTO
             {
-                Nombre = entidad.Nombre,
+                Nombre = entidad.Nombre.Valor,
                 Apellido = entidad.Apellido,
-                Email = entidad.Email,
+                Email = entidad.Email.Valor,
                 Contrasenia = entidad.Contrasenia,
-                Rol = entidad.Rol
+                Rol = entidad.Rol,
+                Id = entidad.Id
+
             };
         }
 
         public static Usuario ToUsuario(UsuarioDTO dto)
         {
-            return new Usuario(dto.Nombre)
+            return new Usuario()
             {
                 Apellido = dto.Apellido,
-                Email = dto.Email,
+                Email = new EmailUsuario(dto.Email),
                 Contrasenia = dto.Contrasenia,
-                Rol = dto.Rol
+                Rol = dto.Rol,
+                Id= dto.Id,
+                Nombre = new NombreUsuario(dto.Nombre)
             };
         }
 
         public static Usuario ToUsuario(CrearEmpleadoDTO dto)
         {
-            return new Usuario(dto.Nombre)
+            return new Usuario(new NombreUsuario(dto.Nombre))
             {
                 Apellido = dto.Apellido,
-                Email = dto.Email,
+                Email = new EmailUsuario(dto.Email),
                 Contrasenia = dto.Contrasenia,
                 Rol = dto.Rol
             };
 
         }
-
-
 
     }
 }

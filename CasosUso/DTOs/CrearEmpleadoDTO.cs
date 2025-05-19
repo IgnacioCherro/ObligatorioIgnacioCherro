@@ -1,9 +1,10 @@
-﻿using LogicaNegocio.ValueObjects;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static CasosUso.DTOs.Enums;
 
 namespace CasosUso.DTOs
 {
@@ -13,6 +14,6 @@ namespace CasosUso.DTOs
         public string Apellido { get; set; }
         public string Email { get; set; }
         public string Contrasenia { get; set; }
-        public RolUsuario Rol { get; set; }
+        public RolUsuario Rol { get; set; } = RolUsuario.Funcionario;
     }
 }

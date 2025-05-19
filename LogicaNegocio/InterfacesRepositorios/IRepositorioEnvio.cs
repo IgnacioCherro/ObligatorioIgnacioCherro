@@ -7,10 +7,8 @@ using System.Threading.Tasks;
 
 namespace LogicaNegocio.InterfacesRepositorios
 {
-    public interface IRepositorioEnvio
+    public interface IRepositorioEnvio: IRepositorio<Envio>
     {
-        void Crear(Envio envio);
-        Envio FindById(int id);
-        void Update(Envio envio);
+        Envio ObtenerEnviosPorTrackingNumber(int number);
     }
 }

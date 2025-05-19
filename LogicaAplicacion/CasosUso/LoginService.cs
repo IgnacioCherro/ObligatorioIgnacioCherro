@@ -8,32 +8,55 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static CasosUso.DTOs.Enums;
+using LogicaNegocio.InterfacesDominio;
 
 namespace LogicaAplicacion.CasosUso
 {
-    public class LoginService
+    public class LoginService: ILoginService
     {
         private readonly IRepositorioUsuario _repo;
+        private readonly JwtService _jwtService;
 
-        public LoginService(IRepositorioUsuario repo)
+        public LoginService(IRepositorioUsuario repo, JwtService jwtService)
         {
+            _jwtService = jwtService;
             _repo = repo;
         }
-
+        
         public UsuarioLogueadoDTO Login(LoginDTO loginDto)
         {
-            var usuario = _repo.ObtenerPorEmail(loginDto.Email);
+            EmailUsuario emailVO;
+
+            try
+            {
+                emailVO = new EmailUsuario(loginDto.Email);
+            }
+            catch
+            {
+                throw new DatosInvalidosExepction("Email inválido.");
+            }
+
+            var usuario = _repo.ObtenerPorEmail(emailVO.Valor);
 
             if (usuario == null)
-                throw new DatosInvalidosExepction ("Usuario no encontrado");
+                throw new DatosInvalidosExepction("Email o contraseña incorrectos.");
 
             if (usuario.Contrasenia != loginDto.Contrasenia)
-                throw new DatosInvalidosExepction("La contraseña no es correcta");
+                throw new DatosInvalidosExepction("Email o contraseña incorrectos.");
 
             if (usuario.Rol == RolUsuario.Cliente)
-                throw new DatosInvalidosExepction("Los clientes no pueden iniciar sesión");
+                throw new DatosInvalidosExepction("Acceso denegado para este tipo de usuario.");
 
-            return MappersUsuario.ToUsuarioLogueadoDTO(usuario);
+            var token = _jwtService.GenerarToken(usuario);
+
+            var usuarioLogeado = MappersUsuario.ToUsuarioLogueadoDTO(usuario);
+            usuarioLogeado.Token = token;
+            return usuarioLogeado;
         }
+
+
+
+
     }
 }

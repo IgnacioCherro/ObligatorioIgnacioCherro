@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "Menú Principal";
+}
+<p>Rol detectado: @ViewBag.RolUsuario</p>
+<h1>Menú Principal</h1>
+
+
+<div style="display: flex; flex-direction: column; gap: 1rem; max-width: 300px;">
+    @if (ViewBag.RolUsuario == "Administrador")
+    {
+        <form asp-controller="Usuario" asp-action="MenuEmpleado" method="get">
+            <button type="submit" class="btn btn-primary btn-block">Gestión de Empleados</button>
+        </form>
+    }
+
+    <form asp-controller="Envio" asp-action="AltaEnvio" method="get">
+        <button type="submit" class="btn btn-success btn-block">Alta de Envío</button>
+    </form>
+
+    <form asp-controller="Envio" asp-action="FinalizarEnvio" method="get">
+        <button type="submit" class="btn btn-warning btn-block">Finalizar Envío</button>
+    </form>
+
+    <form asp-controller="Envio" asp-action="AgregarComentario" method="get">
+        <button type="submit" class="btn btn-info btn-block">Ingreso Comentario</button>
+    </form>
+
+
+</div>
+

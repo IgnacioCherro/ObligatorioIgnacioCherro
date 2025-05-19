@@ -5,6 +5,7 @@ C:\Users\Warzito\source\repos\Obligatorio2025\CasosUso\obj\Debug\net8.0\CasosUso
 C:\Users\Warzito\source\repos\Obligatorio2025\CasosUso\obj\Debug\net8.0\CasosUso.AssemblyInfoInputs.cache
 C:\Users\Warzito\source\repos\Obligatorio2025\CasosUso\obj\Debug\net8.0\CasosUso.AssemblyInfo.cs
 C:\Users\Warzito\source\repos\Obligatorio2025\CasosUso\obj\Debug\net8.0\CasosUso.csproj.CoreCompileInputs.cache
+C:\Users\Warzito\source\repos\Obligatorio2025\CasosUso\obj\Debug\net8.0\CasosUso.sourcelink.json
 C:\Users\Warzito\source\repos\Obligatorio2025\CasosUso\obj\Debug\net8.0\CasosUso.dll
 C:\Users\Warzito\source\repos\Obligatorio2025\CasosUso\obj\Debug\net8.0\refint\CasosUso.dll
 C:\Users\Warzito\source\repos\Obligatorio2025\CasosUso\obj\Debug\net8.0\CasosUso.pdb

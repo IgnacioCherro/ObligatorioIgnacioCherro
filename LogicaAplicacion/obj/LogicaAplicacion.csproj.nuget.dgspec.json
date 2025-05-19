@@ -27,11 +27,7 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaNegocio\\LogicaNegocio.csproj": {
-                "projectPath": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaNegocio\\LogicaNegocio.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -175,6 +171,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -219,6 +225,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\CasosUso\\CasosUso.csproj": {
+                "projectPath": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\CasosUso\\CasosUso.csproj"
+              },
               "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\ExepcionesPropias\\ExepcionesPropias.csproj": {
                 "projectPath": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\ExepcionesPropias\\ExepcionesPropias.csproj"
               }
@@ -239,6 +248,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

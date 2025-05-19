@@ -4,27 +4,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static CasosUso.DTOs.Enums;
 
 namespace LogicaNegocio.EntidadesDominio
 {
-    public class Envio
+    public abstract class Envio
     {
-
         public int Id { get; set; }
         public int NumeroTracking { get; set; }
-        public Usuario EntregaPedido { get; set; }
-        public Usuario RecibePedido { get; set; }
-        public Agencia AgenciaDestino { get; set; }
-        public int? DireccionPostal { get; set; }
-        public TipoEnvio TipoEnvio { get; set; }    
-        public int PesoPaquete { get; set; }
+        public int EmpleadoId { get; set; }
+        public int ClienteId { get; set; }
+        public int Peso { get; set; }
         public EstadoEnvio EstadoEnvio { get; set; }
-        public DateTime FechaAlta { get; set; }
-
-        public DateTime? FechaEntrega { get; set; }
-
-
-
-
+        public TipoEnvio TipoEnvio { get; set; }    
+        public Comentario ComentarioSeguimiento { get; set; }
+        public DateTime FechaDeSalida { get; set; }
     }
 }

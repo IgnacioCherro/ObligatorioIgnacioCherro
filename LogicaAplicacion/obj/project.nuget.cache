@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "IdsCKM/Ivh6VwvlFTxJ68tN0hzh0b6c00rG7Pmvu15HCgvcTLKL/b9c0MtcyoxzWDglk6yOwiyX7blZx0Hum7Q==",
+  "dgSpecHash": "a+1HMN501gG/Lrp6pq5uc895wpEP7ufdQPPgZpR/38qTsXM1A77ydK3pPXflN5cK8UKXfv14UJnwZUSPcqBbBQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaAplicacion\\LogicaAplicacion.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Warzito\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.0\\microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
+    "C:\\Users\\Warzito\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.0\\microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
+    "C:\\Users\\Warzito\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.16\\microsoft.entityframeworkcore.abstractions.8.0.16.nupkg.sha512",
+    "C:\\Users\\Warzito\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Warzito\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.1.2\\microsoft.identitymodel.abstractions.7.1.2.nupkg.sha512",
+    "C:\\Users\\Warzito\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.1.2\\microsoft.identitymodel.jsonwebtokens.7.1.2.nupkg.sha512",
+    "C:\\Users\\Warzito\\.nuget\\packages\\microsoft.identitymodel.logging\\7.1.2\\microsoft.identitymodel.logging.7.1.2.nupkg.sha512",
+    "C:\\Users\\Warzito\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.1.2\\microsoft.identitymodel.tokens.7.1.2.nupkg.sha512",
+    "C:\\Users\\Warzito\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.1.2\\system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512",
+    "C:\\Users\\Warzito\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

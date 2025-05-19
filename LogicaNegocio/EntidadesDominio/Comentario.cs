@@ -8,5 +8,9 @@ namespace LogicaNegocio.EntidadesDominio
 {
     public class Comentario
     {
+        public int Id { get; set; }
+        public DateTime Fecha { get; set; } = DateTime.Now;
+        public string Texto { get; set; }
+        public string UsuarioAutor { get; set; } 
     }
 }

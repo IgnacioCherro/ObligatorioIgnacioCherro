@@ -1,0 +1,69 @@
+﻿@model List<LogicaNegocio.EntidadesDominio.Envio>
+
+@{
+    ViewBag.Title = "Agregar Comentario";
+}
+
+<h2>Agregar Comentario a Envíos en Proceso</h2>
+
+@if (ViewBag.Exito != null)
+{
+    <div class="alert alert-success">@ViewBag.Exito</div>
+}
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
+
+@if (Model == null || !Model.Any())
+{
+    <div class="alert alert-info">No hay envíos en proceso.</div>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Cliente</th>
+                <th>Dirección</th>
+                <th>Peso</th>
+                <th>Tipo</th>
+                <th>Comentario</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var envio in Model)
+            {
+                <tr>
+                    <td>@envio.Id</td>
+                    <td>@envio.TipoEnvio</td>
+                    <td>
+
+                    </td>
+                    <td colspan="2">
+                        <form asp-action="AgregarComentario" asp-controller="Envio" method="post" class="form-inline">
+                            <input type="hidden" name="idEnvio" value="@envio.Id" />
+                            <input type="text" name="comentario" class="form-control mb-2 mr-sm-2" placeholder="Escribe un comentario" required />
+                            <button type="submit" class="btn btn-primary mb-2">Agregar</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <br>
+    <a href="/Home/Menu" class="btn btn-secondary">Volver</a>
+    <br />
+}
+
+@if (!string.IsNullOrEmpty(ViewBag.Mensaje))
+{
+    <div class="alert @(ViewBag.EsExito ? "alert-success" : "alert-danger")">
+        @ViewBag.Mensaje
+    </div>
+}

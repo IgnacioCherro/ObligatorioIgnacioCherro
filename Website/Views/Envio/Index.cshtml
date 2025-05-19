@@ -1,0 +1,121 @@
+﻿@using CasosUso.DTOs
+@model List<EnvioDTO>
+
+@{
+    ViewData["Title"] = "Finalizar Envíos";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2 class="mb-0"><i class="bi bi-truck me-2"></i>Envíos en Proceso</h2>
+
+    <a asp-action="Create" asp-controller="Envio"
+       class="btn btn-success">
+        <i class="bi bi-plus-circle-fill me-1"></i> Nuevo Envío
+    </a>
+</div>
+
+@if (ViewBag.Exito != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @ViewBag.Exito
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @ViewBag.Error
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+@if (Model == null || !Model.Any())
+{
+    <div class="alert alert-info text-center">
+        <i class="bi bi-info-circle me-1"></i>No hay envíos en proceso.
+    </div>
+}
+else
+{
+    <div class="card shadow-sm">
+        <div class="table-responsive">
+            <table class="table table-striped align-middle mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th>ID</th>
+                        <th>Nº Tracking</th>
+                        <th>Cliente</th>
+                        <th>Peso (kg)</th>
+                        <th>Tipo</th>
+                        <th>Estado</th>
+                        <th>Salida</th>
+                        <th>Comentario</th>
+                        <th style="width:220px">Comentario</th>
+                        <th class="text-center">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var e in Model)
+                    {
+                        <tr>
+                            <td>@e.Id</td>
+                            <td>@e.NumeroTracking</td>
+                            <td>@e.Cliente.Nombre</td>
+                            <td>@e.Peso</td>
+
+                            <td>
+                                <span class="badge @(e.TipoEnvio==Enums.TipoEnvio.URGENTE?"bg-danger":"bg-secondary")">
+                                    @e.TipoEnvio
+                                </span>
+                            </td>
+
+                            <td>
+                                <span class="badge @(e.EstadoEnvio==Enums.EstadoEnvio.FINALIZADO?"bg-success":"bg-warning text-dark")">
+                                    @e.EstadoEnvio
+                                </span>
+                            </td>
+
+                            <td>@e.FechaDeSalida.ToShortDateString()</td>
+                            <td>
+                                <div>@e.ComentarioSeguimiento.Texto</div>
+                                <small class="text-muted">
+                                    @e.ComentarioSeguimiento.UsuarioAutor &nbsp;–&nbsp; @e.ComentarioSeguimiento.Fecha.ToShortDateString()
+                                </small>
+                            </td>
+                            <td>
+                                <form asp-action="AgregarComentario" asp-controller="Envio"
+                                      method="post" class="d-flex gap-1">
+                                    <input type="hidden" name="idEnvio" value="@e.Id" />
+                                    <input name="comentario"
+                                           class="form-control form-control-sm"
+                                           placeholder="Añadir comentario" />
+                                    <button type="submit" class="btn btn-sm btn-primary">
+                                        <i class="bi bi-send-fill"></i>
+                                    </button>
+                                </form>
+                            </td>
+
+                            <td class="text-center">
+                                @if (e.EstadoEnvio != Enums.EstadoEnvio.FINALIZADO)
+                                {
+                                    <form asp-action="FinalizarEnvio" asp-controller="Envio"
+                                          asp-route-id="@e.Id" method="post" class="d-inline">
+                                        <button type="submit"
+                                                class="btn btn-sm btn-success"
+                                                onclick="return confirm('¿Finalizar envío?');">
+                                            <i class="bi bi-check2-circle"></i>
+                                        </button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <i class="bi bi-check2 text-success fs-5"></i>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+}

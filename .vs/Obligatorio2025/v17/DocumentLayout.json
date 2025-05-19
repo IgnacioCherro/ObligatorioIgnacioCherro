@@ -3,76 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05129BC0-E17C-47C7-AEAD-43CCA31C746E}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\warzito\\source\\repos\\obligatorio2025\\logicanegocio\\valueobjects\\tipoenvio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05129BC0-E17C-47C7-AEAD-43CCA31C746E}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\valueobjects\\tipoenvio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56BD0618-3474-4A88-8334-80A3084071C3}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\warzito\\source\\repos\\obligatorio2025\\logicaaplicacion\\casosuso\\envioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56BD0618-3474-4A88-8334-80A3084071C3}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\envioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05129BC0-E17C-47C7-AEAD-43CCA31C746E}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\warzito\\source\\repos\\obligatorio2025\\logicanegocio\\entidadesdominio\\envio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05129BC0-E17C-47C7-AEAD-43CCA31C746E}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\entidadesdominio\\envio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46950EC4-81FC-4E5D-A470-179A3EAF457C}|LogicaAccesoDatos\\LogicaAccesoDatos.csproj|c:\\users\\warzito\\source\\repos\\obligatorio2025\\logicaaccesodatos\\repositorios\\repositorioenviobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46950EC4-81FC-4E5D-A470-179A3EAF457C}|LogicaAccesoDatos\\LogicaAccesoDatos.csproj|solutionrelative:logicaaccesodatos\\repositorios\\repositorioenviobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46950EC4-81FC-4E5D-A470-179A3EAF457C}|LogicaAccesoDatos\\LogicaAccesoDatos.csproj|c:\\users\\warzito\\source\\repos\\obligatorio2025\\logicaaccesodatos\\repositorios\\repositorioenvio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46950EC4-81FC-4E5D-A470-179A3EAF457C}|LogicaAccesoDatos\\LogicaAccesoDatos.csproj|solutionrelative:logicaaccesodatos\\repositorios\\repositorioenvio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05129BC0-E17C-47C7-AEAD-43CCA31C746E}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\warzito\\source\\repos\\obligatorio2025\\logicanegocio\\interfacesrepositorios\\irepositorioenvio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05129BC0-E17C-47C7-AEAD-43CCA31C746E}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\interfacesrepositorios\\irepositorioenvio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05129BC0-E17C-47C7-AEAD-43CCA31C746E}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\warzito\\source\\repos\\obligatorio2025\\logicanegocio\\interfacesrepositorios\\irepositorioauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05129BC0-E17C-47C7-AEAD-43CCA31C746E}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\interfacesrepositorios\\irepositorioauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05129BC0-E17C-47C7-AEAD-43CCA31C746E}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\warzito\\source\\repos\\obligatorio2025\\logicanegocio\\interfacesrepositorios\\irepositorioagencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05129BC0-E17C-47C7-AEAD-43CCA31C746E}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\interfacesrepositorios\\irepositorioagencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05129BC0-E17C-47C7-AEAD-43CCA31C746E}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\warzito\\source\\repos\\obligatorio2025\\logicanegocio\\interfacesrepositorios\\irepositoriousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05129BC0-E17C-47C7-AEAD-43CCA31C746E}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\interfacesrepositorios\\irepositoriousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46950EC4-81FC-4E5D-A470-179A3EAF457C}|LogicaAccesoDatos\\LogicaAccesoDatos.csproj|c:\\users\\warzito\\source\\repos\\obligatorio2025\\logicaaccesodatos\\repositorios\\repositoriousuariomemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46950EC4-81FC-4E5D-A470-179A3EAF457C}|LogicaAccesoDatos\\LogicaAccesoDatos.csproj|solutionrelative:logicaaccesodatos\\repositorios\\repositoriousuariomemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46950EC4-81FC-4E5D-A470-179A3EAF457C}|LogicaAccesoDatos\\LogicaAccesoDatos.csproj|c:\\users\\warzito\\source\\repos\\obligatorio2025\\logicaaccesodatos\\repositorios\\repositoriousuariobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46950EC4-81FC-4E5D-A470-179A3EAF457C}|LogicaAccesoDatos\\LogicaAccesoDatos.csproj|solutionrelative:logicaaccesodatos\\repositorios\\repositoriousuariobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46950EC4-81FC-4E5D-A470-179A3EAF457C}|LogicaAccesoDatos\\LogicaAccesoDatos.csproj|c:\\users\\warzito\\source\\repos\\obligatorio2025\\logicaaccesodatos\\repositorios\\repositorioauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46950EC4-81FC-4E5D-A470-179A3EAF457C}|LogicaAccesoDatos\\LogicaAccesoDatos.csproj|solutionrelative:logicaaccesodatos\\repositorios\\repositorioauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D424F58A-A59B-410C-A541-E092A7BF6E57}|CasosUso\\CasosUso.csproj|c:\\users\\warzito\\source\\repos\\obligatorio2025\\casosuso\\dtos\\altaenviodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D424F58A-A59B-410C-A541-E092A7BF6E57}|CasosUso\\CasosUso.csproj|solutionrelative:casosuso\\dtos\\altaenviodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56BD0618-3474-4A88-8334-80A3084071C3}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\warzito\\source\\repos\\obligatorio2025\\logicaaplicacion\\mapeadores\\mappersenvio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56BD0618-3474-4A88-8334-80A3084071C3}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\mapeadores\\mappersenvio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56BD0618-3474-4A88-8334-80A3084071C3}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\warzito\\source\\repos\\obligatorio2025\\logicaaplicacion\\casosuso\\administradorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56BD0618-3474-4A88-8334-80A3084071C3}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\administradorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05129BC0-E17C-47C7-AEAD-43CCA31C746E}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\warzito\\source\\repos\\obligatorio2025\\logicanegocio\\interfacesrepositorios\\irepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05129BC0-E17C-47C7-AEAD-43CCA31C746E}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\interfacesrepositorios\\irepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05129BC0-E17C-47C7-AEAD-43CCA31C746E}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\warzito\\source\\repos\\obligatorio2025\\logicanegocio\\valueobjects\\estadoenvio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05129BC0-E17C-47C7-AEAD-43CCA31C746E}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\valueobjects\\estadoenvio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05129BC0-E17C-47C7-AEAD-43CCA31C746E}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\warzito\\source\\repos\\obligatorio2025\\logicanegocio\\entidadesdominio\\enviourgente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05129BC0-E17C-47C7-AEAD-43CCA31C746E}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\entidadesdominio\\enviourgente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D424F58A-A59B-410C-A541-E092A7BF6E57}|CasosUso\\CasosUso.csproj|c:\\users\\warzito\\source\\repos\\obligatorio2025\\casosuso\\interfacescasosuso\\ialtausuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D424F58A-A59B-410C-A541-E092A7BF6E57}|CasosUso\\CasosUso.csproj|solutionrelative:casosuso\\interfacescasosuso\\ialtausuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56BD0618-3474-4A88-8334-80A3084071C3}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\warzito\\source\\repos\\obligatorio2025\\logicaaplicacion\\casosuso\\envioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BD0618-3474-4A88-8334-80A3084071C3}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosuso\\envioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,224 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IRepositorioUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioUsuario.cs",
-              "RelativeDocumentMoniker": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioUsuario.cs",
-              "ToolTip": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioUsuario.cs",
-              "RelativeToolTip": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioUsuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "RepositorioEnvioBD.cs",
+              "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaAccesoDatos\\Repositorios\\RepositorioEnvioBD.cs",
+              "RelativeDocumentMoniker": "LogicaAccesoDatos\\Repositorios\\RepositorioEnvioBD.cs",
+              "ToolTip": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaAccesoDatos\\Repositorios\\RepositorioEnvioBD.cs",
+              "RelativeToolTip": "LogicaAccesoDatos\\Repositorios\\RepositorioEnvioBD.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowCEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T17:34:47.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IRepositorioAuditoria.cs",
-              "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioAuditoria.cs",
-              "RelativeDocumentMoniker": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioAuditoria.cs",
-              "ToolTip": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioAuditoria.cs",
-              "RelativeToolTip": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioAuditoria.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T17:34:17.374Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RepositorioUsuarioMemoria.cs",
-              "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaAccesoDatos\\Repositorios\\RepositorioUsuarioMemoria.cs",
-              "RelativeDocumentMoniker": "LogicaAccesoDatos\\Repositorios\\RepositorioUsuarioMemoria.cs",
-              "ToolTip": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaAccesoDatos\\Repositorios\\RepositorioUsuarioMemoria.cs",
-              "RelativeToolTip": "LogicaAccesoDatos\\Repositorios\\RepositorioUsuarioMemoria.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T17:33:18.846Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RepositorioUsuarioBD.cs",
-              "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaAccesoDatos\\Repositorios\\RepositorioUsuarioBD.cs",
-              "RelativeDocumentMoniker": "LogicaAccesoDatos\\Repositorios\\RepositorioUsuarioBD.cs",
-              "ToolTip": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaAccesoDatos\\Repositorios\\RepositorioUsuarioBD.cs",
-              "RelativeToolTip": "LogicaAccesoDatos\\Repositorios\\RepositorioUsuarioBD.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T17:33:17.68Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MappersEnvio.cs",
-              "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaAplicacion\\Mapeadores\\MappersEnvio.cs",
-              "RelativeDocumentMoniker": "LogicaAplicacion\\Mapeadores\\MappersEnvio.cs",
-              "ToolTip": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaAplicacion\\Mapeadores\\MappersEnvio.cs",
-              "RelativeToolTip": "LogicaAplicacion\\Mapeadores\\MappersEnvio.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAwBQAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T17:23:03.527Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Envio.cs",
-              "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaNegocio\\EntidadesDominio\\Envio.cs",
-              "RelativeDocumentMoniker": "LogicaNegocio\\EntidadesDominio\\Envio.cs",
-              "ToolTip": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaNegocio\\EntidadesDominio\\Envio.cs",
-              "RelativeToolTip": "LogicaNegocio\\EntidadesDominio\\Envio.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAxwBcAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T17:12:49.3Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AdministradorService.cs",
-              "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaAplicacion\\CasosUso\\AdministradorService.cs",
-              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\AdministradorService.cs",
-              "ToolTip": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaAplicacion\\CasosUso\\AdministradorService.cs",
-              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\AdministradorService.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAowBAAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T16:51:23.598Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IRepositorioAgencia.cs",
-              "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioAgencia.cs",
-              "RelativeDocumentMoniker": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioAgencia.cs",
-              "ToolTip": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioAgencia.cs",
-              "RelativeToolTip": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioAgencia.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T16:41:07.518Z"
+              "WhenOpened": "2025-05-19T23:44:16.408Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EnvioService.cs",
-              "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaAplicacion\\CasosUso\\EnvioService.cs",
-              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\EnvioService.cs",
-              "ToolTip": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaAplicacion\\CasosUso\\EnvioService.cs",
-              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\EnvioService.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAEEAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T16:38:39.434Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "RepositorioEnvio.cs",
               "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaAccesoDatos\\Repositorios\\RepositorioEnvio.cs",
               "RelativeDocumentMoniker": "LogicaAccesoDatos\\Repositorios\\RepositorioEnvio.cs",
               "ToolTip": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaAccesoDatos\\Repositorios\\RepositorioEnvio.cs",
               "RelativeToolTip": "LogicaAccesoDatos\\Repositorios\\RepositorioEnvio.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAkwCAAAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T16:37:39.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IRepositorioEnvio.cs",
-              "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioEnvio.cs",
-              "RelativeDocumentMoniker": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioEnvio.cs",
-              "ToolTip": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioEnvio.cs",
-              "RelativeToolTip": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioEnvio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T16:36:54.34Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TipoEnvio.cs",
-              "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaNegocio\\ValueObjects\\TipoEnvio.cs",
-              "RelativeDocumentMoniker": "LogicaNegocio\\ValueObjects\\TipoEnvio.cs",
-              "ToolTip": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaNegocio\\ValueObjects\\TipoEnvio.cs",
-              "RelativeToolTip": "LogicaNegocio\\ValueObjects\\TipoEnvio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T16:35:22.373Z",
+              "WhenOpened": "2025-05-19T23:44:15.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AltaEnvioDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\CasosUso\\DTOs\\AltaEnvioDTO.cs",
-              "RelativeDocumentMoniker": "CasosUso\\DTOs\\AltaEnvioDTO.cs",
-              "ToolTip": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\CasosUso\\DTOs\\AltaEnvioDTO.cs",
-              "RelativeToolTip": "CasosUso\\DTOs\\AltaEnvioDTO.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAwwAwAAAAxAAAA",
+              "DocumentIndex": 2,
+              "Title": "EnvioService.cs",
+              "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaAplicacion\\CasosUso\\EnvioService.cs",
+              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\EnvioService.cs",
+              "ToolTip": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaAplicacion\\CasosUso\\EnvioService.cs",
+              "RelativeToolTip": "LogicaAplicacion\\CasosUso\\EnvioService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAQwBQAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T16:32:30.352Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EnvioUrgente.cs",
-              "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaNegocio\\EntidadesDominio\\EnvioUrgente.cs",
-              "RelativeDocumentMoniker": "LogicaNegocio\\EntidadesDominio\\EnvioUrgente.cs",
-              "ToolTip": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaNegocio\\EntidadesDominio\\EnvioUrgente.cs",
-              "RelativeToolTip": "LogicaNegocio\\EntidadesDominio\\EnvioUrgente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T16:16:48.689Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EstadoEnvio.cs",
-              "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaNegocio\\ValueObjects\\EstadoEnvio.cs",
-              "RelativeDocumentMoniker": "LogicaNegocio\\ValueObjects\\EstadoEnvio.cs",
-              "ToolTip": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaNegocio\\ValueObjects\\EstadoEnvio.cs",
-              "RelativeToolTip": "LogicaNegocio\\ValueObjects\\EstadoEnvio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T16:15:15.517Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RepositorioAuditoria.cs",
-              "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaAccesoDatos\\Repositorios\\RepositorioAuditoria.cs",
-              "RelativeDocumentMoniker": "LogicaAccesoDatos\\Repositorios\\RepositorioAuditoria.cs",
-              "ToolTip": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaAccesoDatos\\Repositorios\\RepositorioAuditoria.cs",
-              "RelativeToolTip": "LogicaAccesoDatos\\Repositorios\\RepositorioAuditoria.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T15:50:57.952Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaNegocio\\InterfacesRepositorios\\IRepositorio.cs",
-              "RelativeDocumentMoniker": "LogicaNegocio\\InterfacesRepositorios\\IRepositorio.cs",
-              "ToolTip": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaNegocio\\InterfacesRepositorios\\IRepositorio.cs",
-              "RelativeToolTip": "LogicaNegocio\\InterfacesRepositorios\\IRepositorio.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAlwAgAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T15:05:23.441Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IAltaUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\CasosUso\\InterfacesCasosUso\\IAltaUsuario.cs",
-              "RelativeDocumentMoniker": "CasosUso\\InterfacesCasosUso\\IAltaUsuario.cs",
-              "ToolTip": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\CasosUso\\InterfacesCasosUso\\IAltaUsuario.cs",
-              "RelativeToolTip": "CasosUso\\InterfacesCasosUso\\IAltaUsuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T12:52:54.99Z"
+              "WhenOpened": "2025-05-19T23:43:25.59Z",
+              "EditorCaption": ""
             }
           ]
         }

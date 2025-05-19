@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ruggXi6gkFx4MVYyFLHKu1lmIksPKXMAirMdLj0OlkzNrLaiFbmn0hTYjosScORHxeX9pojWXX+KTatvvXRqjg==",
+  "dgSpecHash": "wfdyV0iU9T4KQ8IwcVmCUnsTFXL7M+rHElmHyMYnNAQNAo1WJ4HZpnYbu0oDwFjNEQZKp9MzsMM884pDvxULXw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaNegocio\\LogicaNegocio.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Warzito\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.16\\microsoft.entityframeworkcore.abstractions.8.0.16.nupkg.sha512"
+  ],
   "logs": []
 }

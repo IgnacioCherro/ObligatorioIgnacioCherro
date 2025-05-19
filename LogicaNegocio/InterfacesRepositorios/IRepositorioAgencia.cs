@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace LogicaNegocio.InterfacesRepositorios
 {
-    public interface IRepositorioAgencia:IRepositorio<Agencia>
+    public interface IRepositorioAgencia
     {
+        List<Agencia> ObtenerAgencias();
         Agencia ObtenerPorId(int id);
     }
 }

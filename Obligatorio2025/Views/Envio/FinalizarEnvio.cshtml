@@ -1,0 +1,66 @@
+﻿@using LogicaNegocio.EntidadesDominio;
+@model List<Envio>;
+
+@{
+    ViewBag.Title = "Finalizar Envío";
+}
+
+<h2>Finalizar Envíos en Proceso</h2>
+
+@if (ViewBag.Exito != null)
+{
+    <div class="alert alert-success">@ViewBag.Exito</div>
+}
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
+@if (Model == null || !Model.Any())
+{
+    <div class="alert alert-info">No hay envíos en proceso.</div>
+}
+else
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Cliente</th>
+                <th>Dirección</th>
+                <th>Peso</th>
+                <th>Tipo</th>
+                <th>Fecha Alta</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var envio in Model)
+            {
+                <tr>
+                    <td>@envio.Id</td>
+                    <td>@envio.TipoEnvio</td>
+                    <td>
+                        <form asp-action="FinalizarEnvio" method="post">
+                            <input type="hidden" name="id" value="@envio.Id" />
+                            <button type="submit" class="btn btn-success">Finalizar</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <br>
+    <a href="/Home/Menu" class="btn btn-secondary">Volver</a>
+    <br />
+
+}
+
+@if (!string.IsNullOrEmpty(ViewBag.Mensaje))
+{
+    <div class="alert @(ViewBag.EsExito ? "alert-success" : "alert-danger")">
+        @ViewBag.Mensaje
+    </div>
+}

@@ -1,0 +1,62 @@
+## Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+out/
+
+## User-specific & VS settings
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+
+## Rider / VS Code
+.idea/
+.vscode/
+
+## NuGet / Paket
+*.nupkg
+packages/
+.nuget/
+project.assets.json
+
+## Coverage & analysis
+coverage*/
+*.coverage
+*.lcov
+TestResult*/
+*.trx
+*.coveragexml
+
+## Publish & artifacts
+publish/
+artifacts/
+*.pidb
+
+## Static web assets (ASP.NET Core)
+wwwroot/**/staticwebassets.build.json
+wwwroot/**/staticwebassets.development.json
+
+## Secrets
+appsettings.Development.json
+secrets.json
+UserSecrets/
+
+## Logs
+*.log
+
+## OS junk
+[Dd]esktop.ini
+[Tt]humbs.db
+.DS_Store
+
+## ReSharper / Rider caches
+_ReSharper*/
+*.DotSettings.user
+
+## Entity Framework
+migrations/*.Designer.cs

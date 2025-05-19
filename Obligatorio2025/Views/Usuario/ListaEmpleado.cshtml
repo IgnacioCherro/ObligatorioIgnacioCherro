@@ -1,0 +1,27 @@
+﻿@using CasosUso.DTOs
+@model List<UsuarioDTO>
+
+<h2>Lista de Funcionarios</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            @foreach (var funcionario in Model)
+            {
+                <tr>
+                    <td>@funcionario.Nombre</td>
+                    <td>@funcionario.Apellido</td>
+                    <td>@funcionario.Email</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

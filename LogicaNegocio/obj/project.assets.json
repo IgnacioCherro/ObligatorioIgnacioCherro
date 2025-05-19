@@ -2,6 +2,29 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "Microsoft.EntityFrameworkCore.Abstractions/8.0.16": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CasosUso/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CasosUso.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CasosUso.dll": {}
+        }
+      },
       "ExepcionesPropias/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -15,6 +38,26 @@
     }
   },
   "libraries": {
+    "Microsoft.EntityFrameworkCore.Abstractions/8.0.16": {
+      "sha512": "pjkQ8mhtmzekC56TlWvMbHAme5viF81COeVlGMfpCe5KpC5sRCa1s6qcITwEpcKKVW9JT4EqKH3xHWpoHJUn2A==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.abstractions/8.0.16",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
+        "lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
+        "microsoft.entityframeworkcore.abstractions.8.0.16.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.nuspec"
+      ]
+    },
+    "CasosUso/1.0.0": {
+      "type": "project",
+      "path": "../CasosUso/CasosUso.csproj",
+      "msbuildProject": "../CasosUso/CasosUso.csproj"
+    },
     "ExepcionesPropias/1.0.0": {
       "type": "project",
       "path": "../ExepcionesPropias/ExepcionesPropias.csproj",
@@ -23,7 +66,9 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "ExepcionesPropias >= 1.0.0"
+      "CasosUso >= 1.0.0",
+      "ExepcionesPropias >= 1.0.0",
+      "Microsoft.EntityFrameworkCore.Abstractions >= 8.0.16"
     ]
   },
   "packageFolders": {
@@ -53,6 +98,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\CasosUso\\CasosUso.csproj": {
+              "projectPath": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\CasosUso\\CasosUso.csproj"
+            },
             "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\ExepcionesPropias\\ExepcionesPropias.csproj": {
               "projectPath": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\ExepcionesPropias\\ExepcionesPropias.csproj"
             }
@@ -73,6 +121,12 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": {
+            "target": "Package",
+            "version": "[8.0.16, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

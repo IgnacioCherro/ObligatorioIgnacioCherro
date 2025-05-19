@@ -1,0 +1,111 @@
+﻿@using CasosUso.DTOs
+@using static CasosUso.DTOs.Enums
+@model AltaEnvioDTO
+
+@{
+    ViewData["Title"] = "Alta de Envío";
+}
+
+<h2>Alta de Envío</h2>
+
+@if (ViewBag.Exito != null)
+{
+    <div class="alert alert-success">@ViewBag.Exito</div>
+}
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+<form asp-action="Create" asp-controller="Envio" method="post">
+    @Html.AntiForgeryToken()
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="mb-3">
+        <label asp-for="EmailCliente" class="form-label"></label>
+        <input asp-for="EmailCliente" class="form-control" />
+        <span asp-validation-for="EmailCliente" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Peso" class="form-label"></label>
+        <input asp-for="Peso" class="form-control" />
+        <span asp-validation-for="Peso" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Tipo de envío</label><br />
+        @foreach (var val in Enum.GetValues(typeof(TipoEnvio)).Cast<TipoEnvio>())
+        {
+            <div class="form-check form-check-inline">
+                <input class="form-check-input"
+                       type="radio"
+                       asp-for="TipoEnvio"
+                       value="@val"
+                       id="tipo_@val" />
+                <label class="form-check-label" for="tipo_@val">@val</label>
+            </div>
+        }
+        <span asp-validation-for="TipoEnvio" class="text-danger d-block"></span>
+    </div>
+
+    <div id="urgenteFields" class="mb-3" style="display:none;">
+        <label asp-for="DireccionPostal" class="form-label"></label>
+        <input asp-for="DireccionPostal" class="form-control" />
+        <span asp-validation-for="DireccionPostal" class="text-danger"></span>
+    </div>
+
+    <div id="comunFields" class="mb-3" style="display:none;">
+        <label asp-for="AgenciaId" class="form-label"></label>
+        <select asp-for="AgenciaId" class="form-select" id="AgenciaId">
+            <option value="">-- Seleccione agencia --</option>
+        </select>
+        <span asp-validation-for="AgenciaId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary me-2">
+        <i class="bi bi-save-fill me-1"></i>Crear
+    </button>
+    <a href="/Envio/Index" class="btn btn-secondary">Volver</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const radios = document.querySelectorAll('input[name="TipoEnvio"]');
+            radios.forEach(r => r.addEventListener('change', toggleExtra));
+
+            toggleExtra();
+
+            async function toggleExtra() {
+                const selected = document.querySelector('input[name="TipoEnvio"]:checked');
+                if (!selected) return;
+
+                const tipo = selected.value;
+                const urgenteDiv = document.getElementById('urgenteFields');
+                const comunDiv = document.getElementById('comunFields');
+
+                urgenteDiv.style.display = (tipo === 'URGENTE') ? 'block' : 'none';
+                comunDiv.style.display = (tipo === 'COMUN') ? 'block' : 'none';
+
+                if (tipo === 'COMUN' && comunDiv.style.display === 'block' && document.getElementById('AgenciaId').length <= 1) {
+                    const resp = await fetch('@Url.Action("Agencias", "Envio")');
+                    if (resp.ok) {
+                        const data = await resp.json();
+                        const sel = document.getElementById('AgenciaId');
+                        data.forEach(a => {
+                            const opt = new Option(a.nombre, a.id);
+                            sel.appendChild(opt);
+                        });
+                    } else {
+                        console.error('No se pudieron cargar agencias');
+                    }
+                }
+            }
+        });
+    </script>
+}
