@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{89DF653F-2656-4048-AC2C-B15739D3A9E7}|Website\\Website.csproj|c:\\users\\warzito\\source\\repos\\obligatorio2025\\website\\views\\usuario\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89DF653F-2656-4048-AC2C-B15739D3A9E7}|Website\\Website.csproj|solutionrelative:website\\views\\usuario\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DF653F-2656-4048-AC2C-B15739D3A9E7}|Website\\Website.csproj|c:\\users\\warzito\\source\\repos\\obligatorio2025\\website\\views\\usuario\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89DF653F-2656-4048-AC2C-B15739D3A9E7}|Website\\Website.csproj|solutionrelative:website\\views\\usuario\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DF653F-2656-4048-AC2C-B15739D3A9E7}|Website\\Website.csproj|c:\\users\\warzito\\source\\repos\\obligatorio2025\\website\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DF653F-2656-4048-AC2C-B15739D3A9E7}|Website\\Website.csproj|solutionrelative:website\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ECCD2D1-6191-4E4D-9BB3-669E2D06D77E}|Api\\Api.csproj|c:\\users\\warzito\\source\\repos\\obligatorio2025\\api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ECCD2D1-6191-4E4D-9BB3-669E2D06D77E}|Api\\Api.csproj|solutionrelative:api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{46950EC4-81FC-4E5D-A470-179A3EAF457C}|LogicaAccesoDatos\\LogicaAccesoDatos.csproj|c:\\users\\warzito\\source\\repos\\obligatorio2025\\logicaaccesodatos\\repositorios\\repositorioenviobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46950EC4-81FC-4E5D-A470-179A3EAF457C}|LogicaAccesoDatos\\LogicaAccesoDatos.csproj|solutionrelative:logicaaccesodatos\\repositorios\\repositorioenviobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,24 +38,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\Website\\Views\\Usuario\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Website\\Views\\Usuario\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\Website\\Views\\Usuario\\Edit.cshtml*",
+              "RelativeToolTip": "Website\\Views\\Usuario\\Edit.cshtml*",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T00:04:50.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\Website\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Website\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\Website\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Website\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T00:03:59.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\Website\\Views\\Usuario\\Create.cshtml",
+              "RelativeDocumentMoniker": "Website\\Views\\Usuario\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\Website\\Views\\Usuario\\Create.cshtml",
+              "RelativeToolTip": "Website\\Views\\Usuario\\Create.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T00:03:29.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\Api\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\Api\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Api\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T00:02:12.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "RepositorioEnvioBD.cs",
               "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaAccesoDatos\\Repositorios\\RepositorioEnvioBD.cs",
               "RelativeDocumentMoniker": "LogicaAccesoDatos\\Repositorios\\RepositorioEnvioBD.cs",
               "ToolTip": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaAccesoDatos\\Repositorios\\RepositorioEnvioBD.cs",
               "RelativeToolTip": "LogicaAccesoDatos\\Repositorios\\RepositorioEnvioBD.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowCEAAAAJAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T23:44:16.408Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "RepositorioEnvio.cs",
               "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaAccesoDatos\\Repositorios\\RepositorioEnvio.cs",
               "RelativeDocumentMoniker": "LogicaAccesoDatos\\Repositorios\\RepositorioEnvio.cs",
@@ -47,12 +115,11 @@
               "RelativeToolTip": "LogicaAccesoDatos\\Repositorios\\RepositorioEnvio.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T23:44:15.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T23:44:15.196Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "EnvioService.cs",
               "DocumentMoniker": "C:\\Users\\Warzito\\source\\repos\\Obligatorio2025\\LogicaAplicacion\\CasosUso\\EnvioService.cs",
               "RelativeDocumentMoniker": "LogicaAplicacion\\CasosUso\\EnvioService.cs",
@@ -60,8 +127,7 @@
               "RelativeToolTip": "LogicaAplicacion\\CasosUso\\EnvioService.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAQwBQAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T23:43:25.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T23:43:25.59Z"
             }
           ]
         }
